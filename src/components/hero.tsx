@@ -22,7 +22,7 @@ export function Hero() {
             <div className="flex -space-x-2">
               {[...Array(5)].map((_, i) => (
                 <Avatar key={i} className="border-2 border-white w-8 h-8">
-                  <AvatarImage src={`/placeholder.svg?height=32&width=32`} />
+                  <AvatarImage src={`https://img.freepik.com/premium-vector/people-saving-money_24908-51568.jpg?semt=ais_hybrid`} />
                   <AvatarFallback>U{i + 1}</AvatarFallback>
                 </Avatar>
               ))}
